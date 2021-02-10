@@ -1,0 +1,146 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.header	{
+	background: url('../img/header-bg.png') no-repeat center top;
+	padding-top: 45px;
+}
+
+.container {
+	max-width: 100%;
+	width: 1270px;
+	margin: 0 auto;
+}
+
+.menu_nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.list a {
+	list-style: none;
+	line-height: 18px;	
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+
+.offer {
+	display: flex;
+	flex-direction: column;
+	padding-top: 151px;
+	/*padding-bottom: 82px;*/
+}
+
+.text_vertical {
+	display: inline-block;
+	writing-mode: vertical-rl;
+	 -webkit-transform:rotate(-180deg);
+}
+
+.title_text {
+	position: absolute;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+	padding-left: 565px; 
+}
+
+.title_hungry {
+	font-size: 96px;
+	position: absolute;
+	padding-left: 330px;
+	padding-top: 25px;
+}
+
+.title_hungry:after {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 5px;
+	background: #E8C300;
+	margin-top: 10px;
+	margin-left: 280px;
+}
+
+.button_1 {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	background: #E8C300;
+	width: 200px;
+	padding: 26px 0;
+	letter-spacing:	0.5px;
+}
+
+.explore {
+	background: none;
+	border: 1px solid rgba(255, 255, 255, 0.5);	
+
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	padding-left: 1200px;
+}
+
+.image_social {
+	padding-bottom: 30px;
+}
+
+.button_block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	padding-top: 82px;
+}
+
+.button_scroll {
+	border-radius: 50%;
+	border: none;
+}
+
+.about {
+	color: #000;
+}
