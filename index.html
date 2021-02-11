@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>Hungry people</title>
+	<link rel="shortcut icon" href="img/favicon/favicon-32x32.png" type="image/png">
 </head>
 <body>
 	<header class="header" id="header">
@@ -52,33 +53,85 @@
 				<h1 class="title_hungry">
 					Hungry people
 				</h1>
-				<div class="button_1">
-					<a href="#" class="btn">Book table</a>
-					<a href="#" class="btn explore">Explore</a>
+				<div class="button">
+					<div class="button_1">
+						<a href="#" class="btn">Book table</a>
+					</div>
+					<div class="button_2">
+						<a href="#" class="btn explore">Explore</a>
+					</div>	
 				</div>
-				<!-- <div class="button_2">
-					<a href="#" class="btn explore">Explore</a>
-				</div> -->
 				<div class="social">
 				 	<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"><img src="img/facebook.png" class="image_social"></i></a>
 			    	<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"><img src="img/twitter.png" class="image_social"></i></a>
-		    		<a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-2x"><img src="img/instagram.png" class="image_social"></i></a>
+		    		<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-google fa-2x"><img src="img/instagram.png" class="image_social"></i></a>
 				</div>
 				<div class="button_block">
-					<button class="button_scroll">
-						<a href="#" class="scroll_down"><i><img src="img/down-btn.png"></i></a>
-					</button>
+					<a href="#" class="scroll_down"><i><img src="img/down-btn.png"></i></a>
 				</div>
 			</div>
 		</div>
 	</header>
-	<section class="about_us">
+	<section class="about_us" id="about_us">
 		<div class="container">
-			<h2 class="about">
-			About us
-			</h2>
+			<div class="wrapper_about">
+				<div class="offer_about">
+					<h2 class="about">
+					About us
+					</h2>
+					<p class="text_about">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+					</p>
+					<p class="intro_about">
+					Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+				<div class="image_about">
+					<img src="img/Bonfire.png" class="image" alt="Bonfire">		
+				</div>
+			</div>
 		</div>
-		
+	</section>
+	<section class="our_team" id="our_team">
+		<div class="contaiter">
+			<div class="team">
+				<p class="title_text_team">
+				Our team
+				</p>
+			</div>
+				<div class="wrapper_team">
+					<div class="image_team">
+						<img src="img/master-cheff.png" class="image" alt="Chef">	
+					</div>
+					<div class="offer_team">
+						<h2 class="chef">
+						Master chef
+						</h2>
+						<p class="text_team">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.
+						</p>
+						<p class="intro_team">
+							Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+						</p>
+						</div>
+				</div>	
+		</div>
+	</section>
+	<section class="book_table">
+		<div class="container">
+			<h2 class="book">
+				Book a table
+			</h2>
+			<div class="menu_book">
+				<label><input type="name" placeholder="Name" name="name" class="input" required></label>
+				<label><input type="tel" placeholder="Phone" name="tel" class="input" required></label>
+				<label><input type="date" placeholder="Date(mm/dd)" name="text" class="input"></label>
+				<label><input type="email" placeholder="Email" name="email" class="input" required></label>
+				<label><input type="number" placeholder="People" name="text" class="input"></label>
+				<label><input type="time" placeholder="Time" name="text" class="input"></label>	
+			</div>
+			</div>
+		</div>
 	</section>
 </body>
 </html>
